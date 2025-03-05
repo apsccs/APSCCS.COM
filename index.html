@@ -19,7 +19,7 @@
             background-repeat: no-repeat;
             background-position: center center;
             background-attachment: fixed;
-            background-size: cover;
+            background-size: contain;
         }
         p {
             text-align: center;
@@ -32,25 +32,11 @@
             transform: translateX(-50%);
             white-space: nowrap;
         }
-        .clickable-area {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            cursor: pointer;
-        }
     </style>
 </head>
 
 <body>
     <p>UNDER LAMP STACK MAINTENANCE - Mar '25</p>
-    <div class="clickable-area" onclick="navigateToURL()"></div>
-    <script>
-        function navigateToURL() {
-            window.location.href = 'http://raz.alai-emperor.ts.net';
-        }
-    </script>
 </body>
 
 </html>
